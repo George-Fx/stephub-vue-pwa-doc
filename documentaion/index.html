@@ -1,0 +1,560 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Teofin - Documentation</title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h3 class="header-text">
+        StepHub – Vue 3 Shoes Store App Documentation by George_FX v1.0
+      </h3>
+      <h1 class="title">StepHub – Vue 3 Shoes Store App</h1>
+      <!-- Details -->
+      <div class="details">
+        <div class="details__left">
+          <span class="details__left-text">Created: 03/04/2026</span>
+          <span class="details__left-text">By: George_FX</span>
+          <span class="details__left-text">
+            Email:
+            <a href="mailto:kul.giorgi@gmail.com" class="details__left-link">
+              kul.giorgi@gmail.com
+            </a>
+          </span>
+        </div>
+        <div class="details__right">
+          <p class="details__right-text">
+            Thank you for purchasing my theme. If you have any questions that
+            are beyond the scope of this help file, please feel free to email
+            via my user page contact form
+            <a href="http://themeforest.net/user/George_FX">here</a>
+            . Thanks so much!
+          </p>
+        </div>
+      </div>
+      <!-- Description -->
+      <p class="description">
+        Before setting up the project, you should have a basic understanding of
+        the following technologies: HTML, CSS, JavaScript, Vue, Node.js, and
+        npm. For more information, visit the official documentation:
+        <a href="https://www.w3schools.com/html/">HTML</a>
+        ,
+        <a href="https://www.w3schools.com/css/">CSS</a>
+        ,
+        <a href="https://www.w3schools.com/js/">JavaScript</a>
+        ,
+        <a href="https://vuejs.org/">Vue</a>
+        ,
+        <a href="https://nodejs.org/en/">Node.js</a>
+        ,
+        <a href="https://www.npmjs.com/">npm</a>
+        .
+      </p>
+      <!-- Steps -->
+      <h2 class="steps__title">Follow these steps to set up the project:</h2>
+      <!-- List -->
+      <ol class="steps__list">
+        <!-- 1. Important Requirements -->
+        <li class="steps__list-item">
+          <span class="steps__list-item-number">1.</span>
+          <a href="#requirements" class="steps__list-item-text">
+            Important Requirements
+          </a>
+        </li>
+        <!-- 2. Folder structure -->
+        <li class="steps__list-item">
+          <span class="steps__list-item-number">2.</span>
+          <a href="#structure" class="steps__list-item-text">
+            Folder structure
+          </a>
+        </li>
+        <!-- 3. Install environment -->
+        <li class="steps__list-item">
+          <span class="steps__list-item-number">3.</span>
+          <a href="#environment" class="steps__list-item-text">
+            Install environment
+          </a>
+        </li>
+        <!-- 4. Install dependencies -->
+        <li class="steps__list-item">
+          <span class="steps__list-item-number">4.</span>
+          <a href="#dependencies" class="steps__list-item-text">
+            Install dependencies
+          </a>
+        </li>
+        <!-- 5. Change Assets -->
+        <li class="steps__list-item">
+          <span class="steps__list-item-number">5.</span>
+          <a href="#change-assets" class="steps__list-item-text">
+            Change Assets
+          </a>
+        </li>
+        <!-- 6. Customization -->
+        <li class="steps__list-item">
+          <span class="steps__list-item-number">6.</span>
+          <a href="#customization" class="steps__list-item-text">
+            Customization
+          </a>
+        </li>
+        <!-- 7. Run the project -->
+        <li class="steps__list-item">
+          <span class="steps__list-item-number">7.</span>
+          <a href="#run-project" class="steps__list-item-text">
+            Run the project
+          </a>
+        </li>
+        <!-- 8. Build the project -->
+        <li class="steps__list-item">
+          <span class="steps__list-item-number">8.</span>
+          <a href="#build-project" class="steps__list-item-text">
+            Build the project
+          </a>
+        </li>
+        <!-- 9. Deploy the project -->
+        <li class="steps__list-item">
+          <span class="steps__list-item-number">9.</span>
+          <a href="#deploy-project" class="steps__list-item-text">
+            Deploy the project
+          </a>
+        </li>
+        <!-- 10. API Usage -->
+        <li class="steps__list-item">
+          <span class="steps__list-item-number">10.</span>
+          <a href="#api-usage" class="steps__list-item-text">API Usage</a>
+        </li>
+        <!-- 11. API Integration -->
+        <li class="steps__list-item">
+          <span class="steps__list-item-number">11.</span>
+          <a href="#api-integration" class="steps__list-item-text">
+            API Integration
+          </a>
+        </li>
+        <!-- 12. Support and Dependencies -->
+        <li class="steps__list-item">
+          <span class="steps__list-item-number">12.</span>
+          <a href="#support" class="steps__list-item-text">
+            Support and Dependencies
+          </a>
+        </li>
+        <!-- 13. Changelog -->
+        <li class="steps__list-item">
+          <span class="steps__list-item-number">13.</span>
+          <a href="#changelog" class="steps__list-item-text">Changelog</a>
+        </li>
+      </ol>
+
+      <!-- 1. Important Requirements -->
+      <section class="steps__section" id="requirements">
+        <h3 class="steps__sub-title">
+          <strong>1. Important Requirements</strong>
+        </h3>
+        <p class="steps__section-description">
+          The project is built with the following versions:
+          <br />
+          <br />
+          <strong>Node.js:</strong>
+          Version
+          <span class="versions__list-item-version">24 or higher</span>
+          is required to run the project.
+          <a href="https://nodejs.org/en/" target="_blank">
+            [Node.js Official Site]
+          </a>
+          <br />
+          <strong>Vue:</strong>
+          The project is built with
+          <span class="versions__list-item-version">Vue 3</span>
+          .
+          <a href="https://vuejs.org/" target="_blank">[Vue Official Site]</a>
+          <br />
+          <strong>npm:</strong>
+          Version
+          <span class="versions__list-item-version">11</span>
+          was used for dependency management.
+          <a href="https://www.npmjs.com/" target="_blank">
+            [npm Official Site]
+          </a>
+        </p>
+        <p class="steps__section-description">
+          Please ensure your development environment matches these versions for
+          optimal compatibility and performance.
+        </p>
+        <p class="steps__section-description">
+          To check your installed versions, run:
+          <code>node -v</code>
+          ,
+          <code>npm -v</code>
+          in your terminal. If you need to update, follow the links above to
+          download the latest versions.
+        </p>
+      </section>
+
+      <!-- 2. Folder structure -->
+      <section class="steps__section" id="structure">
+        <h3 class="steps__sub-title">
+          <strong>2. Folder structure</strong>
+        </h3>
+        <p class="steps__section-description">
+          The project follows the
+          <a href="https://feature-sliced.design/" target="_blank">
+            Feature-Sliced Design (FSD)
+          </a>
+          architectural methodology. FSD organizes code into
+          <strong>layers</strong>
+          , each layer is divided into
+          <strong>slices</strong>
+          (by business domain), and each slice consists of
+          <strong>segments</strong>
+          (by technical purpose). Modules on a given layer can only import from
+          layers strictly below it.
+        </p>
+        <ul class="structure__list">
+          <li class="structure__list-item">
+            <strong>src / app:</strong>
+            Application entry point — routing setup, global styles, and
+            providers.
+          </li>
+          <li class="structure__list-item">
+            <strong>src / pages:</strong>
+            Full-page components. Each screen represents a separate route and
+            assembles widgets and features into a complete view.
+          </li>
+          <li class="structure__list-item">
+            <strong>src / widgets:</strong>
+            Large self-contained UI blocks that combine features and entities
+            into meaningful interface sections.
+          </li>
+          <li class="structure__list-item">
+            <strong>src / entities:</strong>
+            Business entities the project works with (e.g. products, catalog
+            items). Contains entity-specific UI, models, and API calls.
+          </li>
+          <li class="structure__list-item">
+            <strong>src / shared:</strong>
+            Reusable composable functions with no dependency on business domain
+            — shared logic across the entire application.
+          </li>
+        </ul>
+        <img src="assets/structure.png" class="steps__section-image" />
+        <br />
+        <br />
+        <p class="steps__section-description">
+          <code>main.ts</code>
+          is the main entry point of the application, where the Vue app is
+          created and mounted.
+        </p>
+      </section>
+
+      <!-- 3. Install environment -->
+      <section class="steps__section" id="environment">
+        <h3 class="steps__sub-title">
+          <strong>3. Install environment</strong>
+        </h3>
+        <p class="steps__section-description">
+          Your computer should have Node.js (version 24 or higher) and npm
+          installed to manage the dependencies. You can download Node.js (which
+          includes npm) from the following link:
+          <a href="https://nodejs.org/en/">Node.js</a>
+        </p>
+        <p class="steps__section-description">
+          To verify your installation, run the following commands in your
+          terminal:
+          <code>node -v</code>
+          and
+          <code>npm -v</code>
+        </p>
+        <img src="assets/download-node.png" class="steps__section-image" />
+      </section>
+
+      <!-- 4. Install dependencies -->
+      <section class="steps__section" id="dependencies">
+        <h3 class="steps__sub-title">
+          <strong>4. Install dependencies</strong>
+        </h3>
+        <p class="steps__section-description">
+          To install the project dependencies, run the following command in the
+          project directory:
+          <code>npm install</code>
+        </p>
+        <img src="assets/npm-install.png" class="steps__section-image" />
+        <br />
+        <br />
+        <p class="steps__section-description">
+          This command will install all the necessary dependencies for the
+          project.
+        </p>
+      </section>
+
+      <!-- 5. Change Assets -->
+      <section class="steps__section" id="change-assets">
+        <h3 class="steps__sub-title">
+          <strong>5. Change Assets</strong>
+        </h3>
+        <p class="steps__section-description">
+          All project assets are located in the
+          <code>src/shared/assets</code>
+          folder.
+        </p>
+        <p class="steps__section-description">
+          To replace an asset, simply swap the corresponding file with your own,
+          ensuring the file name and format remain the same for proper
+          functionality.
+        </p>
+        <img src="assets/assets-folder.png" class="steps__section-image" />
+        <br />
+        <br />
+        <p class="steps__section-description">
+          Additionally, some images in the project are loaded via external URLs.
+          To replace these, locate the relevant URL in the code and update it
+          with your new image link.
+        </p>
+        <img src="assets/urls.png" class="steps__section-image" />
+      </section>
+
+      <!-- 6. Customization -->
+      <section class="steps__section" id="customization">
+        <h3 class="steps__sub-title">
+          <strong>6. Customization</strong>
+        </h3>
+        <p class="steps__section-description">
+          The project uses both global and screen-specific styles. Global styles
+          and variables are located in the
+          <code>src/app/styles</code>
+          folder and apply to the entire application. In addition, each screen
+          (or page) can have its own styles stored in the
+          <code>src/pages/*</code>
+          folder, allowing for scoped styling without conflicts between
+          different components.
+        </p>
+        <p class="steps__section-description">
+          The image below shows an example of global CSS files located in the
+          <code>src/app/styles</code>
+          folder.
+        </p>
+        <img src="assets/css.png" class="steps__section-image" />
+        <br />
+        <br />
+        <p class="steps__section-description">
+          The image below shows an example of screen-specific CSS files located
+          in the
+          <code>src/pages/*</code>
+          folder.
+        </p>
+        <img
+          src="assets/screen-specific-css.png"
+          class="steps__section-image"
+        />
+      </section>
+
+      <!-- 7. Run the project -->
+      <section class="steps__section" id="run-project">
+        <h3 class="steps__sub-title">
+          <strong>7. Run the project</strong>
+        </h3>
+        <p class="steps__section-description">
+          To run the project, use the following command:
+          <code>npm run dev</code>
+        </p>
+        <img src="assets/npm-run-dev.png" class="steps__section-image" />
+        <br />
+        <br />
+        <p class="steps__section-description">
+          The development server will start at
+          <code>http://localhost:5173</code>
+          by default.
+          <br />
+          The page will automatically reload when you make changes to the code.
+        </p>
+      </section>
+
+      <!-- 8. Build the project -->
+      <section class="steps__section" id="build-project">
+        <h3 class="steps__sub-title">
+          <strong>8. Build the project</strong>
+        </h3>
+        <p class="steps__section-description">
+          When you're ready to deploy your application, create an optimized
+          production build by running:
+          <code>npm run build</code>
+        </p>
+        <p class="steps__section-description">
+          This command compiles your Vue application, minifies the code, and
+          optimizes assets for the best performance. The build process may take
+          a few minutes depending on your project size.
+        </p>
+        <img src="assets/npm-run-build.png" class="steps__section-image" />
+        <br />
+        <br />
+        <p class="steps__section-description">
+          After the build completes, a
+          <code>dist</code>
+          folder will be created containing all the production-ready files. You
+          can preview the build locally before deployment by running:
+          <code>npm run preview</code>
+        </p>
+      </section>
+
+      <!-- 9. Deploy the project -->
+      <section class="steps__section" id="deploy-project">
+        <h3 class="steps__sub-title">
+          <strong>9. Deploy the project</strong>
+        </h3>
+        <p class="steps__section-description">
+          Once the build is complete, the
+          <code>dist</code>
+          folder contains all the static files needed for deployment. You can
+          host your application on any static hosting service.
+        </p>
+        <img src="assets/build-result.png" class="steps__section-image" />
+        <br />
+        <br />
+        <p class="steps__section-description">
+          Popular hosting platforms for Vue applications:
+        </p>
+        <ul class="api__list">
+          <li class="api__list-item">
+            <a href="https://vercel.com/">Vercel</a>
+            — Zero-config deployment with automatic CI/CD
+          </li>
+          <li class="api__list-item">
+            <a href="https://www.netlify.com/">Netlify</a>
+            — Simple drag-and-drop or Git-based deployment
+          </li>
+          <li class="api__list-item">
+            <a href="https://pages.github.com/">GitHub Pages</a>
+            — Free hosting for static sites (requires additional configuration
+            for SPA routing)
+          </li>
+        </ul>
+        <p class="steps__section-description">
+          To deploy manually, upload all contents from the
+          <code>dist</code>
+          folder to your web server's public directory (e.g.,
+          <code>public_html</code>
+          or
+          <code>www</code>
+          ). Ensure your server is configured to serve
+          <code>index.html</code>
+          for all routes to enable client-side routing.
+        </p>
+      </section>
+
+      <!-- 10. API Usage -->
+      <section class="steps__section" id="api-usage">
+        <h3 class="steps__sub-title">
+          <strong>10. API Usage</strong>
+        </h3>
+        <p class="steps__section-description">
+          By default, the application uses mock data provided by a fake API
+          located in the
+          <code>src/shared/api/mocks</code>
+          folder. This approach allows you to develop and test the app’s
+          features without connecting to a real backend server.
+        </p>
+        <p class="steps__section-description">
+          The
+          <code>src/shared/api/mocks</code>
+          directory contains the following JSON files, each representing a
+          specific data set used throughout the application:
+
+          <br />
+          <br />
+          <span>- carousel.json</span>
+          <br />
+          <span>- onboarding.json</span>
+          <br />
+          <span>- orders.json</span>
+          <br />
+          <span>- products.json</span>
+          <br />
+          <span>- promocodes.json</span>
+          <br />
+          <span>- reviews.json</span>
+        </p>
+
+        <img src="assets/api-usage.png" class="steps__section-image" />
+      </section>
+
+      <!-- 11. API Integration -->
+      <section class="steps__section" id="api-integration">
+        <h3 class="steps__sub-title">
+          <strong>11. API Integration</strong>
+        </h3>
+        <p class="steps__section-description">
+          To integrate APIs into your application, you can call them directly
+          inside your Vue components using
+          <strong>axios</strong>
+          or another HTTP client. Simply place your API requests in the
+          <code>onMounted</code>
+          lifecycle hook or a component method to fetch and handle data as
+          needed. For example, you can easily fetch products and display them in
+          your component:
+        </p>
+        <img src="assets/get-products.png" class="steps__section-image" />
+      </section>
+
+      <!-- 12. Support and Dependencies -->
+      <section class="steps__section" id="support">
+        <h3 class="steps__sub-title">
+          <strong>12. Support and Dependencies</strong>
+        </h3>
+        <p class="steps__section-description">
+          If you have any questions or need support, please contact me via
+          email:
+          <a href="mailto:kul.giorgi@gmail.com">kul.giorgi@gmail.com</a>
+          <br />
+          The project uses the following dependencies:
+        </p>
+        <ul class="api__list">
+          <li class="api__list-item">
+            <a href="https://pinia.vuejs.org/">pinia</a>
+          </li>
+          <li class="api__list-item">
+            <a href="https://motion.dev/">motion</a>
+          </li>
+          <li class="api__list-item">
+            <a href="https://router.vuejs.org/">vue-router</a>
+          </li>
+          <li class="api__list-item">
+            <a href="https://swiperjs.com/">swiper</a>
+          </li>
+        </ul>
+        <p class="steps__section-description">
+          The project uses the following font:
+        </p>
+        <ul class="font__list">
+          <li class="font__list-item">
+            <a href="https://fonts.google.com/specimen/Mulish?query=Mulish">
+              Mulish
+            </a>
+          </li>
+        </ul>
+      </section>
+
+      <!-- 13. Changelog -->
+      <section class="steps__section" id="changelog">
+        <h3 class="steps__sub-title">
+          <strong>13. Changelog</strong>
+        </h3>
+        <p class="steps__section-description">
+          <strong>Version 1.0.0 – Initial Release (Apr 5, 2026)</strong>
+          <br />
+          <br />
+          <span>- 35+ mobile-ready screens included</span>
+          <br />
+          <span>- Fully responsive and optimized UI</span>
+          <br />
+          <span>- Authentication (Sign in / Sign up / OTP)</span>
+          <br />
+          <span>- Clean and modern design</span>
+          <br />
+          <span>- Easy to customize and extend</span>
+          <br />
+          <span>- Built with Vue 3 and Vite</span>
+        </p>
+      </section>
+    </div>
+  </body>
+</html>
