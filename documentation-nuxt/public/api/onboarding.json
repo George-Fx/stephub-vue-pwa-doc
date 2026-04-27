@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "url": "https://george-fx.github.io/stephub-data/onboarding/01.jpg",
+    "titleLine1": "Welcome",
+    "titleLine2": "to StepHub!",
+    "description": "Explore our exclusive collection of fashionable footwear."
+  },
+  {
+    "id": 2,
+    "url": "https://george-fx.github.io/stephub-data/onboarding/02.jpg",
+    "titleLine1": "Explore &",
+    "titleLine2": "Discover!",
+    "description": "Now that we have your preferences, let's explore our shoe paradise!"
+  },
+  {
+    "id": 3,
+    "url": "https://george-fx.github.io/stephub-data/onboarding/03.jpg",
+    "titleLine1": "Get Tailored",
+    "titleLine2": "Recommendations!",
+    "description": "Unlock even more perks by creating an account!"
+  }
+]

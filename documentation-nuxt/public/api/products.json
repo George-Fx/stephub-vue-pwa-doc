@@ -1,0 +1,326 @@
+[
+  {
+    "id": 1,
+    "sizes": ["39", "40", "41", "42", "43", "44"],
+    "tags": ["Sneakers", "Flexible", "Comfortable"],
+    "name": "FlexFit Training Shoes",
+    "colors": [
+      {
+        "id": 1,
+        "name": "Pastel Red",
+        "code": "#FF6262"
+      },
+      {
+        "id": 2,
+        "name": "Maya Blue",
+        "code": "#63C7FF"
+      },
+      {
+        "id": 3,
+        "name": "Champagne",
+        "code": "#F8E7CD"
+      },
+      {
+        "id": 4,
+        "name": "Delft blue",
+        "code": "#193364"
+      },
+      {
+        "id": 5,
+        "name": "Black",
+        "code": "#000000"
+      }
+    ],
+    "images": [
+      "https://george-fx.github.io/stephub-data/products/01_01.jpg",
+      "https://george-fx.github.io/stephub-data/products/01_02.jpg",
+      "https://george-fx.github.io/stephub-data/products/01_03.jpg"
+    ],
+    "image": "https://george-fx.github.io/stephub-data/products/01_01.jpg",
+    "audience": ["Men"],
+    "categories": ["Athletic Shoes"],
+    "description": "Get ready to elevate your workout game with our FlexFit Training Shoes. Engineered for maximum performance and comfort, these shoes are designed to support you thro...",
+    "rating": 3,
+    "quantity": null,
+    "promotion": "Welcome To StepHub! 50% Off",
+    "isNew": true,
+    "isTop": false,
+    "ratingCount": 23,
+    "price": "76.99",
+    "isFeatured": true,
+    "isBestSeller": true,
+    "oldPrice": "109.00"
+  },
+  {
+    "id": 2,
+    "sizes": ["39", "40", "41", "42", "43", "44"],
+    "tags": ["Sneakers", "Flexible", "Comfortable"],
+    "name": "Active Stride Shoes",
+    "colors": [
+      {
+        "id": 1,
+        "name": "Pastel Red",
+        "code": "#FF6262"
+      },
+      {
+        "id": 2,
+        "name": "Maya Blue",
+        "code": "#63C7FF"
+      },
+      {
+        "id": 3,
+        "name": "Champagne",
+        "code": "#F8E7CD"
+      },
+      {
+        "id": 4,
+        "name": "Delft blue",
+        "code": "#193364"
+      },
+      {
+        "id": 5,
+        "name": "Black",
+        "code": "#000000"
+      }
+    ],
+    "images": [
+      "https://george-fx.github.io/stephub-data/products/02_01.jpg",
+      "https://george-fx.github.io/stephub-data/products/02_02.jpg",
+      "https://george-fx.github.io/stephub-data/products/02_03.jpg"
+    ],
+    "image": "https://george-fx.github.io/stephub-data/products/02_01.jpg",
+    "audience": ["Men"],
+    "categories": ["Athletic Shoes"],
+    "description": "Get ready to elevate your workout game with our FlexFit Training Shoes. Engineered for maximum performance and comfort, these shoes are designed to support you thro...",
+    "rating": 4,
+    "quantity": null,
+    "promotion": "Welcome To StepHub! 50% Off",
+    "isNew": false,
+    "isTop": true,
+    "ratingCount": 14,
+    "price": "83.99",
+    "isFeatured": true,
+    "isBestSeller": true,
+    "oldPrice": "109.00"
+  },
+  {
+    "id": 3,
+    "sizes": ["39", "40", "41", "42", "43", "44"],
+    "tags": [
+      "Hiking Boots",
+      "Waterproof",
+      "Comfortable",
+      "Flexible",
+      "Stylish"
+    ],
+    "name": "Seeker Hiking Boots",
+    "colors": [
+      {
+        "id": 1,
+        "name": "Pastel Red",
+        "code": "#FF6262"
+      },
+      {
+        "id": 2,
+        "name": "Maya Blue",
+        "code": "#63C7FF"
+      },
+      {
+        "id": 3,
+        "name": "Champagne",
+        "code": "#F8E7CD"
+      },
+      {
+        "id": 4,
+        "name": "Delft blue",
+        "code": "#193364"
+      },
+      {
+        "id": 5,
+        "name": "Black",
+        "code": "#000000"
+      }
+    ],
+    "images": [
+      "https://george-fx.github.io/stephub-data/products/03_01.jpg",
+      "https://george-fx.github.io/stephub-data/products/03_02.jpg",
+      "https://george-fx.github.io/stephub-data/products/03_03.jpg"
+    ],
+    "image": "https://george-fx.github.io/stephub-data/products/03_01.jpg",
+    "audience": ["Men"],
+    "categories": ["Specialty Shoes"],
+    "description": "Get ready to elevate your workout game with our FlexFit Training Shoes. Engineered for maximum performance and comfort, these shoes are designed to support you thro...",
+    "rating": 3,
+    "quantity": null,
+    "promotion": "Take 50% Off Now!",
+    "isNew": true,
+    "isTop": false,
+    "ratingCount": 27,
+    "price": "89.99",
+    "isFeatured": true,
+    "isBestSeller": true,
+    "oldPrice": null
+  },
+  {
+    "id": 4,
+    "sizes": ["39", "40", "41", "42", "43", "44"],
+    "tags": ["Dress Shoes", "Derbies", "Stylish", "Comfortable"],
+    "name": "Dapper Derby Shoes",
+    "colors": [
+      {
+        "id": 1,
+        "name": "Pastel Red",
+        "code": "#FF6262"
+      },
+      {
+        "id": 2,
+        "name": "Maya Blue",
+        "code": "#63C7FF"
+      },
+      {
+        "id": 3,
+        "name": "Champagne",
+        "code": "#F8E7CD"
+      },
+      {
+        "id": 4,
+        "name": "Delft blue",
+        "code": "#193364"
+      },
+      {
+        "id": 5,
+        "name": "Black",
+        "code": "#000000"
+      }
+    ],
+    "images": [
+      "https://george-fx.github.io/stephub-data/products/04_01.jpg",
+      "https://george-fx.github.io/stephub-data/products/04_02.jpg",
+      "https://george-fx.github.io/stephub-data/products/04_03.jpg"
+    ],
+    "image": "https://george-fx.github.io/stephub-data/products/04_01.jpg",
+    "audience": ["Men"],
+    "categories": ["Formal Shoes"],
+    "description": "Get ready to elevate your workout game with our FlexFit Training Shoes. Engineered for maximum performance and comfort, these shoes are designed to support you thro...",
+    "rating": 4,
+    "quantity": null,
+    "promotion": "Welcome To StepHub! 50% Off",
+    "isNew": false,
+    "isTop": true,
+    "ratingCount": 8,
+    "price": "119.99",
+    "isFeatured": true,
+    "isBestSeller": true,
+    "oldPrice": null
+  },
+  {
+    "id": 5,
+    "sizes": ["39", "40", "41", "42", "43", "44"],
+    "tags": ["Comfortable", "Stylish", "Flexible"],
+    "name": "Urban Charm Sneakers",
+    "colors": [
+      {
+        "id": 1,
+        "name": "Pastel Red",
+        "code": "#FF6262"
+      },
+      {
+        "id": 2,
+        "name": "Maya Blue",
+        "code": "#63C7FF"
+      },
+      {
+        "id": 3,
+        "name": "Champagne",
+        "code": "#F8E7CD"
+      },
+      {
+        "id": 4,
+        "name": "Delft blue",
+        "code": "#193364"
+      },
+      {
+        "id": 5,
+        "name": "Black",
+        "code": "#000000"
+      }
+    ],
+    "images": [
+      "https://george-fx.github.io/stephub-data/products/05_01.jpg",
+      "https://george-fx.github.io/stephub-data/products/05_02.jpg",
+      "https://george-fx.github.io/stephub-data/products/05_03.jpg"
+    ],
+    "image": "https://george-fx.github.io/stephub-data/products/05_01.jpg",
+    "audience": ["Women"],
+    "categories": ["Urban Shoes"],
+    "description": "Get ready to elevate your workout game with our FlexFit Training Shoes. Engineered for maximum performance and comfort, these shoes are designed to support you thro...",
+    "rating": 3,
+    "quantity": null,
+    "promotion": "Take 50% Off Now!",
+    "isNew": true,
+    "isTop": false,
+    "ratingCount": 35,
+    "price": "54.99",
+    "isFeatured": true,
+    "isBestSeller": true,
+    "oldPrice": null
+  },
+  {
+    "id": 6,
+    "sizes": ["39", "40", "41", "42", "43", "44"],
+    "tags": [
+      "Hiking Boots",
+      "Waterproof",
+      "Comfortable",
+      "Flexible",
+      "Stylish"
+    ],
+    "name": "Seeker Hiking Bootss",
+    "colors": [
+      {
+        "id": 1,
+        "name": "Pastel Red",
+        "code": "#FF6262"
+      },
+      {
+        "id": 2,
+        "name": "Maya Blue",
+        "code": "#63C7FF"
+      },
+      {
+        "id": 3,
+        "name": "Champagne",
+        "code": "#F8E7CD"
+      },
+      {
+        "id": 4,
+        "name": "Delft blue",
+        "code": "#193364"
+      },
+      {
+        "id": 5,
+        "name": "Black",
+        "code": "#000000"
+      }
+    ],
+    "images": [
+      "https://george-fx.github.io/stephub-data/products/06_01.jpg",
+      "https://george-fx.github.io/stephub-data/products/06_02.jpg",
+      "https://george-fx.github.io/stephub-data/products/06_03.jpg"
+    ],
+    "image": "https://george-fx.github.io/stephub-data/products/06_01.jpg",
+    "audience": ["Men"],
+    "categories": ["Specialty Shoes"],
+    "description": "Get ready to elevate your workout game with our FlexFit Training Shoes. Engineered for maximum performance and comfort, these shoes are designed to support you thro...",
+    "rating": 4,
+    "quantity": null,
+    "promotion": "Take 50% Off Now!",
+    "isNew": false,
+    "isTop": true,
+    "ratingCount": 9,
+    "price": "89.99",
+    "isFeatured": true,
+    "isBestSeller": true,
+    "oldPrice": null
+  }
+]

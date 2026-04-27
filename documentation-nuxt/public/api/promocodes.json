@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "FootFlex Outlet",
+    "code": "Discount24",
+    "image": "https://george-fx.github.io/stephub-data/promocodes/01.jpg",
+    "discount": 50,
+    "expiry": "June 30, 2027"
+  },
+  {
+    "id": 2,
+    "name": "UrbanStride Showcase",
+    "code": "Discount25",
+    "image": "https://george-fx.github.io/stephub-data/promocodes/02.jpg",
+    "discount": 30,
+    "expiry": "June 30, 2027"
+  },
+  {
+    "id": 3,
+    "name": "SneakPeak Plaza",
+    "code": "Discount26",
+    "image": "https://george-fx.github.io/stephub-data/promocodes/03.jpg",
+    "discount": 15,
+    "expiry": "June 30, 2027"
+  }
+]
